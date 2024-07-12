@@ -3,7 +3,8 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:25px;
+    padding:var(--horizontal-space);
+    margin-bottom: 15px;
 
 }
 
@@ -14,4 +15,5 @@
 
 .screen-header span{
     margin-left:15px;
+    position:relative;
 }
